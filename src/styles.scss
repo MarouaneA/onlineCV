@@ -1,2 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-body {background-color: black;}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import '~@angular/material/theming';
+@include mat-core();
+
+$cv-app-primary: mat-palette($mat-grey, 800, 700, 900);
+$cv-app-accent:  mat-palette($mat-grey, 800, 700, 900);
+$cv-app-warn:    mat-palette($mat-red);
+$cv-app-theme: mat-light-theme($cv-app-primary, $cv-app-accent, $cv-app-warn);
+
+@include angular-material-theme($cv-app-theme);
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif !important ; 
+}
