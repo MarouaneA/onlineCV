@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 @import '~@angular/material/theming';
 @include mat-core();
 
@@ -12,5 +12,5 @@ $cv-app-theme: mat-light-theme($cv-app-primary, $cv-app-accent, $cv-app-warn);
 body {
     background-color: black;
     color: white;
-    font-family: 'Quicksand', sans-serif !important ; 
+    font-family: 'Monoton', cursive !important;
 }
