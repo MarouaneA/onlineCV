@@ -2,7 +2,7 @@
 
 .titre{
     height: 100%;
-    font-size: 20vh;
+    font-size: 15vh;
     font-weight : 200 !important; 
     text-align: center;
     background: linear-gradient(60deg,#38cbec,#05449c);
@@ -10,5 +10,24 @@
     -webkit-text-fill-color: transparent;
     background-color: rgba($color: #fff, $alpha: 0);
     font-family: 'Just Another Hand', cursive !important;
+
+}
+
+.sous-titre{
+    height: 100%;
+    font-size: 4vh;
+    font-weight : 100 !important; 
+    text-align: center;
+    background: linear-gradient(60deg,#38cbec,#05449c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgba($color: #fff, $alpha: 0);
+    font-family: 'Just Another Hand', cursive !important;
+
+}
+.title{
+    .example-spacer {
+        flex: 1 1 auto;
+      }
 
 }
