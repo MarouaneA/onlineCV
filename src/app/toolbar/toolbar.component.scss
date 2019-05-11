@@ -1,42 +1,10 @@
 mat-toolbar{
-    height : 8vh;
+    height : 3vh;
     background-color: black;
+    align-self: center;
+    .example-spacer {
+        flex: 1 1 auto;
+      }
 }
 
-.espace{
-    flex: 1;
-}
-.selector {
-    padding: 0 0%;
-    width: 40px;
-    color: white !important;
-}
 
-.field {
-    padding: 0 0%;
-    background-color: black;
-    color: #fff !important;
-    text-align: center  
-}
-.field:hover{background-image:linear-gradient(60deg,#7bfbff,#0e1efc); ; width:100%;
-    display:block; text-decoration:none;}
-
-.icon {
-    padding: 1 10px;
-    color: white !important;
-   
-}
-.icon:hover{background-image:linear-gradient(60deg,#7bfbff,#0e1efc); ;}
-
-.titre{
-    height: 100%;
-    font-size: 7vh;
-    font-weight : 200 !important; 
-    margin: 0 auto;
-    background: linear-gradient(60deg,#38cbec,#05449c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-color: rgba($color: #fff, $alpha: 0);
-    font-family: 'Monoton', cursive !important;
-   
-}
