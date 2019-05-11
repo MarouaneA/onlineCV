@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 .titre{
     height: 100%;
-    font-size: 15vh;
+    font-size: 10vh;
     font-weight : 200 !important; 
     text-align: center;
-    background: linear-gradient(60deg,#38cbec,#05449c);
+    background: linear-gradient(60deg,#00fff2,#006eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: rgba($color: #fff, $alpha: 0);
-    font-family: 'Just Another Hand', cursive !important;
+    font-family: 'Dosis', sans-serif;
 
 }
 
@@ -18,11 +19,11 @@
     font-size: 4vh;
     font-weight : 100 !important; 
     text-align: center;
-    background: linear-gradient(60deg,#38cbec,#05449c);
+    background: linear-gradient(60deg,#00fff2,#006eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: rgba($color: #fff, $alpha: 0);
-    font-family: 'Just Another Hand', cursive !important;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .title{

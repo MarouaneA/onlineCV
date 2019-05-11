@@ -14,5 +14,6 @@ $cv-app-theme: mat-light-theme($cv-app-primary, $cv-app-accent, $cv-app-warn);
 body {
     background-color: black;
     color: white;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
