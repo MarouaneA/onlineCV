@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+.title{
+    font-size: 3vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+mat-card{
+    background-color: #1b1b22;
+    color:  white;
+   width: 70vh;
+}
+
+mat-divider{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intitule{
+    font-size: 2.8vh;
+    font-family: 'Didact Gothic', sans-serif !important;
+
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+h1,h2,h3,h4{
+    font-family: 'Didact Gothic', sans-serif !important;
+    
+}
+
