@@ -12,7 +12,9 @@ const routes: Routes = [ {path : 'me' , component : MeComponent},
 {path : 'education' , component : EducationComponent},
 {path : 'competences' , component : CompetencesComponent},
 {path : 'interet' , component : InteretComponent},
-{path : 'contact' , component : ContactComponent}];
+{path : 'contact' , component : ContactComponent},
+{ path: '**', redirectTo: 'me', pathMatch: 'full' }]
+;
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
